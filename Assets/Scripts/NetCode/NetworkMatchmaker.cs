@@ -22,6 +22,7 @@ using System.Linq;
 /// -> Logic to handle if queue time exceeds a threshold, start a game filled with bots
 /// </summary>
 
+[BoltGlobalBehaviour]
 public class NetworkMatchmaker : GlobalEventListener
 {
     public static Stopwatch QueueTime { get; } = new Stopwatch();
