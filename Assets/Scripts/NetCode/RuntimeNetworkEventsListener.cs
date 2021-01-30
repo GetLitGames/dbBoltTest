@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[BoltGlobalBehaviour]
 public class RuntimeNetworkEventsListener : GlobalEventListener
 {
     public static List<NetworkPlayer> Players = new List<NetworkPlayer>();
